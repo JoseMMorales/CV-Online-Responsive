@@ -1,0 +1,78 @@
+/* MOBILE MEDIA QUERY */
+
+@media all and (min-width: 0px) and (max-width: 767px){
+  .mainContainer{
+    margin: 10px;
+  }
+  .separatorHorizontal{
+    width:78%; 
+    margin: 0 40px;
+  } 
+  .header{ 
+    display: flex;
+    flex-direction: column-reverse; 
+  }
+  .header div:nth-of-type(1){
+    justify-content: center;
+    padding: 0px;
+    margin: 10px;
+    border: none;
+  }
+  .header h1{
+    font-size: 45px;
+  }
+  #imageCV img{
+    width: 105px;
+  }
+  .content{
+    flex-direction: column;
+  }
+  .dates i{ display: none; }
+  .dates ul{ display: none; } 
+  .description{
+    padding: 2px 20px 36px 28px;
+    margin: 10px;
+    text-align: justify;
+    border: none;
+  }
+  .description h2, h4, p{
+    margin-bottom: 10px;
+  }
+  .sectionName.skills h2{
+    text-align: center;
+    margin-bottom: 0;
+  }
+  #skilltables{
+    justify-content: center;
+    margin: -20px 40px 20px 40px;
+  } 
+  .table{
+    flex-direction: column;
+  }
+  .description.education{
+    padding: 2px 20px 36px 28px;
+    margin: 10px;
+    text-align: justify;
+    border: none;
+  }
+}
+@media all and (min-width: 0px) and (max-width: 376px){
+  #footer p{ display: none; }
+  .footerCredentialsMobile{
+    display: block;
+  }
+  .footerCredentialsMobile{
+    padding-bottom: 5px;
+    padding-top: 5px;
+    list-style-type: none;
+    justify-content: center;
+    font-family:Helvetica, Arial, sans-serif;
+    font-weight: 100;
+  }
+}
+@media all and (min-width: 0px) and (max-width: 285px){
+  .separatorHorizontal{
+    width:73%; 
+    margin: 0 40px;
+  } 
+}
