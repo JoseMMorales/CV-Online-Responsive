@@ -1,0 +1,136 @@
+ *{
+  margin: 0;
+  padding: 0;
+  font-family:Helvetica, Arial, sans-serif;
+}
+body{ background-color: black; }
+
+p{
+  font-size: 14px;
+  font-weight: 100;
+}
+
+h1{ font-size: 67px; font-weight: 100; }
+h2,h3{ font-weight: 100; }
+h2{ font-size: 30px; }
+h4{ color: rgb(245, 197, 41); }
+
+/* SEPARATOR HORIZONTAL */
+.separatorHorizontal{
+  width:90%; 
+  margin: 0 40px;
+  border-color:black;
+} 
+/* ICONS POSITION IN EXPERIENCE */
+.dates i{
+  float:right;
+  position: relative;
+  right: -15px;
+  color: black;
+}
+.dates ul{ 
+  display: none;
+}
+.mainContainer{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 0;
+  margin: 0 180px auto; 
+  background-color: #fff;
+}
+/* HEADER SECTION */
+.header{
+  color: #fff;
+  background-color: black;
+}
+.header, .content{ /* CONTENT IS PART OF EXPERIENCE SECTION*/
+  display: flex;
+  flex-direction: row wrap; 
+}
+.header div:nth-of-type(1){
+  flex-basis: 100%;
+  flex: 2;
+  padding: 0 50px 0 20px;
+  margin: 30px 0 30px;
+  text-align: justify;
+  border-right: 1px solid blanchedalmond;
+}
+.header div:nth-of-type(2){
+  flex-basis: 100%;
+  justify-content: center;
+  align-items: center;
+  flex: 1;
+}
+#imageCV{
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+#imageCV img{
+  width: 125px;
+  max-width: 100%;
+  border-radius: 100%;
+  margin: 10px;
+  height: auto;
+}
+#imageCV li{ 
+  list-style-type: none;
+}
+.sectionName{ margin: 30px; }
+/* EXPERIENCE SECTION */
+.description{
+  padding: 2px 80px 56px 100px;
+  border-left: 2px solid black;
+}
+.dates{
+  flex-direction: column wrap;
+  justify-content: center;
+  flex-basis: 100px;
+  flex: 1;
+}
+.dates p{ 
+  margin: 12px 0 0 40px;
+  float:left;
+}
+.description{
+  flex-direction: column wrap;
+  justify-content: center;
+  flex-basis: 100px;
+  flex: 2;
+}
+/* SKILLS SECTION*/
+#skilltables{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: -40px 10px 10px 10px;
+}
+.row{
+  padding: 10px;
+  background-color: black;
+  color: #fff;
+  border: #fff solid 2px;
+} 
+/* EDUCATION SECTION */
+.description.education{
+  padding: 0 80px 36px 100px;
+  margin-top: -30px;
+  border: none;
+}
+.dates.education p{
+  display: none;
+  color: #fff;
+}
+/* FOOTER */
+#footer{
+  margin: 20px 0 30px 30px;
+} 
+.table, #footer{  
+  display: flex;
+  flex-direction: row;
+  justify-content: center; 
+}
+.footerCredentialsMobile{
+  display: none;
+}
