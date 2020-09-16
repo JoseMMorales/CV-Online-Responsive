@@ -1,0 +1,31 @@
+/* TABLET - 768px */
+
+@media all and (min-width: 767px) and (max-width: 1019px){
+  .mainContainer{
+    padding: 0;
+    margin: 0 80px auto; 
+  }
+  .dates i{
+    position: fixed;
+    left: 210px;
+    color: black;
+  }
+  .dates p{ display: none; }
+  .dates ul{ 
+    text-align: center;
+    display: block; 
+    padding-bottom: 86px;
+    padding-top: 10px;
+    list-style-type: none;
+    justify-content: center;
+    font-family:Helvetica, Arial, sans-serif;
+    font-weight: 100;
+  }  
+  .sectionName.skills h2{
+    text-align: center;
+  }
+  #skilltables{
+    margin: -20px 0 10px 0;
+  }
+}
+
