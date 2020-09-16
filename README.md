@@ -2,16 +2,16 @@
 
 ### **Description**
 
-This is the result of 5 days coding training following up steps and adding my own research to solve the challenge. The final achievement was giving same look as presented by instructor initially using HTML, CSS and Javascript. Being responsive and easy to interact with. 
+CV Online project is a template for people to use it. This is a simple model of CV where clear information and attractive layout is a great combination for you to present in any job opportunity. It's been built with HTML5 and CSS3, being responsive to any device using Flexbox and Media Queries. 
 
 ### **User Stories**
 ```
 As a user,
-I would like know about features of the candidate who present the resume.
+I would like to know about features of the candidate who presented the resume.
 So I want to read experiences, skills and studies.
 
 As a user,
-I want to see an attractive and professional layout with clear information.
+I want to see a professional layout with clear information.
 So that encourages me to read all key points in the CV.
 
 As a user,
@@ -22,7 +22,7 @@ So that increases opportunities to be seen.
 
 ## **Getting started** 
 
-These instructtions will get you a copy of the project up on your local machine.
+These instructions will get you a copy of the project up on your local machine.
 
 ### **Installing**
 
