@@ -42,4 +42,4 @@ These instructions will get you a copy of the project up on your local machine.
 
 ## **Author** 
 
-Jose M Morales
+Jose MMorales
