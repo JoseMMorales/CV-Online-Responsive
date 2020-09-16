@@ -2,10 +2,10 @@
 
 ### **Description**
 
-CV Online project is a template for people to use it. This is a simple model of CV where clear information and attractive layout is a great combination for you to present in any job opportunity. It's been built with HTML5 and CSS3, being responsive to any device using Flexbox and Media Queries. 
+CV Online project is a template for people to use it. This is a simple model of CV where clear information and attractive layout is a great combination for you to present in any job opportunity. It's been built with HTML5 and CSS3, being responsive to any device using <a href="https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Flexible_Box_Layout/Basic_Concepts_of_Flexbox">Flexbox</a> and <a href="https://developer.mozilla.org/en-US/docs/Web/CSS/Media_Queries/Using_media_queries">Media Queries.</a> 
 
 
-![video](https://user-images.githubusercontent.com/43299285/93312335-68818680-f807-11ea-945d-f5a59d6d195e.gif)
+![video](https://user-images.githubusercontent.com/43299285/93314700-6ec53200-f80a-11ea-9d98-5c78aa4b6cae.gif)
 
 ### **User Stories**
 ```
