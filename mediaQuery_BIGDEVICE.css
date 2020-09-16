@@ -1,0 +1,44 @@
+/* 4K - 2560px */
+@media all and (min-width: 2550px){
+  .mainContainer{
+      padding: 0;
+      margin: 1px 680px auto; 
+  }
+}
+
+/* LAPTOP L - 1440px */
+
+@media all and (min-width: 1435px) and (max-width: 2550px){
+  .mainContainer{
+    padding: 0;
+    margin: 0 180px auto; 
+  }
+}
+
+/* LAPTOP S - 1024px */
+
+/* ExperienceHeading DISPLAY IN BLOCK WHEN REDUCE THE SCREEN*/
+
+@media all and (min-width: 1020px) and (max-width: 1434px){
+  .mainContainer{
+    padding: 0;
+    margin: 0 180px auto; 
+  }
+  .dates p{ display: none; }
+  .dates ul{ 
+    text-align: center;
+    display: block;
+    padding-bottom: 86px;
+    padding-top: 10px;
+    list-style-type: none;
+    margin-right: 20px;
+    font-family:Helvetica, Arial, sans-serif;
+    font-weight: 100;
+  }  
+  .sectionName.skills h2{
+    text-align: center;
+  }
+  #skilltables{
+    margin: -20px 10px 10px 10px;
+  }
+}
