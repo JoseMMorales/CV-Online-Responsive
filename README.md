@@ -4,6 +4,9 @@
 
 CV Online project is a template for people to use it. This is a simple model of CV where clear information and attractive layout is a great combination for you to present in any job opportunity. It's been built with HTML5 and CSS3, being responsive to any device using Flexbox and Media Queries. 
 
+
+![video](https://user-images.githubusercontent.com/43299285/93312335-68818680-f807-11ea-945d-f5a59d6d195e.gif)
+
 ### **User Stories**
 ```
 As a user,
